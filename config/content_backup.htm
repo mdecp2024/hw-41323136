@@ -542,7 +542,7 @@ draw_circles(x1, y1, r1, x2, y2, r2, x3, y3, r3)
 <p>並在 "w16_exam1" 頁面中完成下列隨堂考試的要求 (20%):</p>
 <p>本項任務必須拍攝過程操作影片, 且<span>片頭要先切換到個人的課程網頁 "About" 頁面, 顯示操作者的學號與個人網頁連結</span>.</p>
 <p>題目: 請以<span>自己的學號最後四碼</span>作為繪圖的座標原點, (例如: 若學號最後四碼為 3932, 請將 (39, 32) 作為繪圖座標原點), 並以 pixel=2 的黑色直線分別利用 Brython 繪圖, 標示出向右為正的 X 軸, 以及向下為正的 Y 軸, 並且利用文字標示出原點座標 (例如: (39, 32)), 之後請自選最左側圖形的起始點座標, 直接在頁面畫出下列圖像, 繪圖程式除了必須直接列在頁面 html 檔案外, 也請存入自己的 Gist 區域, 並在所完成的圖像下方, 以自選標題的 anchor 連結至 Gist, 讓使用者點擊該連結後, 可以在各自的 Brython 頁面中繪出下列圖像 (<a href="https://www.ccplusmedia.com/wp-content/uploads/2019/10/creative-ad_landscape3.jpg">圖片來源</a>).</p>
-<p><a href="https://mdecp2024.github.io/hw-ffwfggw/content/Brython.html?src=https://gist.githubusercontent.com/ffwfggw/3b1b046958d45ff25187296ac626575b/raw/71f0192671db9f7e6d3db1d67300a0a832cb5044/1.py">答</a></p>
+<p><a href="https://mdecp2024.github.io/hw-41323136/content/Bython.html?src =https://gist.githubusercontent.com/41323136/3d45e79cb605825bb0b76ac123ba1c1b/raw/4ef8b88021b7b86b2b8a8c6905c4cc8fe1a0917b/1.py">答</a></p>
 <div>
 <div class="syntaxhighlighter py" id="highlighter_494865"></div>
 <div class="syntaxhighlighter py">
@@ -650,7 +650,7 @@ ctx.fill()</pre>
 <p>並在 "w16_exam2" 頁面中完成下列隨堂考試的要求 (20%):</p>
 <p>本項任務必須拍攝過程操作影片, 且<span>片頭要先切換到個人的課程網頁 "About" 頁面, 顯示操作者的學號與個人網頁連結</span>.</p>
 <p>題目一: 請以<span>自己的學號最後四碼</span>作為下列繪圖的左上方點座標, (例如: 若學號最後四碼為 3932, 請將 (39, 32) 作為繪圖左上方點座標), 並以紅色文字標示出該點座標 (例如: (39, 32)), 之後請利用<span> </span><span>pixel=2 的藍色直線</span>,<span> </span><span>自訂迷宮畫布大小</span>, 直接在頁面畫出下列圖像, 繪圖程式除了必須直接列在頁面 html 檔案外, 也請存入自己的 Gist 區域, 並在所完成的圖像下方, 以自選標題的 anchor 連結至 Gist, 讓使用者點擊該連結後, 可以在各自的 Brython 頁面中繪出下列圖像).</p>
-<p><a href="https://mdecp2024.github.io/hw-ffwfggw/content/Brython.html?src=https://gist.githubusercontent.com/ffwfggw/3b1b046958d45ff25187296ac626575b/raw/f7690922e166b89f5e30e2a8d6d8c70ffec769c9/2.py">答</a></p>
+<p><a href="https://mdecp2024.github.io/hw-41323136/content/index.html?src=https://gist.githubusercontent.com/41323136/3d45e79cb605825bb0b76ac123ba1c1b/raw/4ef8b88021b7b86b2b8a8c6905c4cc8fe1a0917b/gistfile2.txt">答</a></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import html
 from browser import document as doc
 import math
@@ -937,9 +937,9 @@ if __name__ == "__main__":
 <p style="padding-left: 30px;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">.....</span></span></p>
 <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">期末自報告評成績：</span></span></p>
 <p style="padding-left: 30px;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">完成上述流程後，接受最終報告自評分數輸入cp2024自評表單中。</span></span></p>
-<h1>布萊頓</h1>
-<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">從1累加到100：</span></span></p>
-<p><button id="add1to100"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1 加到 100</span></span></button></p>
+<h1>Brython</h1>
+<p>從 1 累加到 100:</p>
+<p><button id="add1to100">1 add to 100</button></p>
 <!-- 導入 brython 程式庫 -->
 <p>
 <script src="/static/brython.js"></script>
@@ -1052,11 +1052,11 @@ doc["add1to100"].bind('click', add)
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
-<form><label><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">檔案名稱：</span></span><input id="kw_filename" placeholder="輸入檔名" type="text"/><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">.py</span></span></label> <span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="保存"/></span></span></form>
+<form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></form>
 <p><!-- 存擋表單結束 --></p>
 <p></p>
 <p><!-- 執行與清除按鈕開始 --></p>
-<p><button id="kw_run1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">跑步</span></span></button> <button id="kw_show_console1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">輸出</span></span></button> <button id="kw_clear_console1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">明確輸出區</span></span></button><button id="clear_bd1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清晰的繪圖區</span></span></button><button onclick="window.location.reload()"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">重新載入</span></span></button></p>
+<p><button id="kw_run1">Run</button> <button id="kw_show_console1">Output</button> <button id="kw_clear_console1">清除輸出區</button><button id="clear_bd1">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
 <p><!-- 執行與清除按鈕結束 --></p>
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
@@ -1064,8 +1064,8 @@ doc["add1to100"].bind('click', add)
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div1"></div>
 <!-- editor1 結束 --><hr/><!-- ########################################## -->
-<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">從1累加到100第2部分：</span></span></p>
-<p><button id="add1to100part2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1 加到 100</span></span></button><button id="cango_three_gears"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">cango_三_齒輪</span></span></button><button id="bsnake"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">BS蛇</span></span></button><button id="aitetris"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">人工智慧俄羅斯方塊</span></span></button><button id="threejsblock"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">旋轉塊</span></span></button></p>
+<p>從 1 累加到 100 part2:</p>
+<p><button id="add1to100part2">1 add to 100</button><button id="cango_three_gears">cango_three_gears</button><button id="bsnake">BSnake</button><button id="aitetris">AI Tetris</button><button id="threejsblock">Rotating Block</button></p>
 <p><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src2"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
 <p>
 <script type="text/python3">
@@ -1171,11 +1171,11 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <div id="kw_editor2" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
-<form><label><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">檔案名稱：</span></span><input id="kw_filename2" placeholder="輸入檔名" type="text"/><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">.py</span></span></label> <span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="保存"/></span></span></form>
+<form><label>Filename: <input id="kw_filename2" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></form>
 <p><!-- 存擋表單結束 --></p>
 <p></p>
 <p><!-- 執行與清除按鈕開始 --></p>
-<p><button id="kw_run2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">跑步</span></span></button> <button id="kw_show_console2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">輸出</span></span></button> <button id="kw_clear_console2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">明確輸出區</span></span></button><button id="clear_bd2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清晰的繪圖區</span></span></button><button onclick="window.location.reload()"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">重新載入</span></span></button></p>
+<p><button id="kw_run2">Run</button> <button id="kw_show_console2">Output</button> <button id="kw_clear_console2">清除輸出區</button><button id="clear_bd2">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
 <p><!-- 執行與清除按鈕結束 --></p>
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
@@ -1186,4 +1186,3 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
-<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">ㄆˇ</span></span></p>
